@@ -4,3 +4,5 @@ app/database/__pycache__/load_data_sources.cpython-312.pyc
 app/llm/__pycache__/llm.cpython-312.pyc
 app/tools/__pycache__/tools.cpython-312.pyc
 data/app.db
+logs/app.log
+.vscode/settings.json

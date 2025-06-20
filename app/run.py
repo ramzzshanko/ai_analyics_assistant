@@ -167,11 +167,15 @@ st.html(render_chat())
 # Chat input
 prompt = st.chat_input("Ask for data, charts, or analysis...")
 
+chat_history = []
+
 if prompt:
     # Add user message
     st.session_state.messages.append({"role": USER, "content": prompt})
     
-    data, summary = get_analytics_response(prompt)
+    data, summary, messages = get_analytics_response(prompt, chat_history=chat_history)
+    
+    chat_history.extend(messages)
     
     if data is None:
         st.session_state.messages.append({
@@ -189,6 +193,7 @@ if prompt:
         tbl.scale(1, 1.5)
         img_base64 = "data:image/png;base64," + fig_to_base64(fig)
         plt.close(fig)
+        
         st.session_state.messages.append({
             "role": ASSISTANT,
             "type": "image",
@@ -201,43 +206,5 @@ if prompt:
             "content": summary
         })
     
-    # # Generate appropriate assistant response
-    # if "table" in prompt.lower():
-    #     # Create sample dataframe
-    #     data = pd.DataFrame({
-    #         'Product': ['Apples', 'Oranges', 'Bananas'],
-    #         'Sales': [100, 200, 150],
-    #         'Profit': [20, 40, 30]
-    #     })
-    #     st.session_state.messages.append({
-    #         "role": ASSISTANT, 
-    #         "type": "table",
-    #         "content": data
-    #     })
-    # elif "image" in prompt.lower():
-    #     # Use a sample image
-    #     image_url = "https://via.placeholder.com/300x200.png?text=Sample+Image"
-    #     st.session_state.messages.append({
-    #         "role": ASSISTANT, 
-    #         "type": "image",
-    #         "content": image_url
-    #     })
-    # elif "chart" in prompt.lower():
-    #     # Generate and save a sample plot
-    #     fig, ax = plt.subplots()
-    #     ax.plot([1, 2, 3, 4], [1, 4, 2, 3])
-    #     ax.set_title('Sample Chart')
-    #     st.session_state.messages.append({
-    #         "role": ASSISTANT, 
-    #         "type": "image",
-    #         "content": "data:image/png;base64," + fig_to_base64(fig)
-    #     })
-    # else:
-    #     # Default text response
-    #     st.session_state.messages.append({
-    #         "role": ASSISTANT, 
-    #         "type": "text",
-    #         "content": f"I received: '{prompt}'. Here's what I can show:\n\n• Say 'table' for sample data\n• Say 'image' for a picture\n• Say 'chart' for a graph"
-    #     })
     
     st.rerun()

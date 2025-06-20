@@ -62,30 +62,31 @@ def summarize_data(prompt: str):
     return response.content
 
 
-def get_analytics_response(prompt: str):
+def get_analytics_response(prompt: str, chat_history=None):
     client = get_groq_client()
     
-    # Define system message
-    system_message = SystemMessage(
-        content=SQL_SYSTEM_PROMPT
-    )
-        
-    # Define user message
-    user_message = HumanMessage(
-        content=prompt
-    )
+    # Prepare chat history if provided
+    messages = []
+    if chat_history:
+        messages.extend(chat_history)
+    # Add system and user messages for current turn
+    messages.append(SystemMessage(content=SQL_SYSTEM_PROMPT))
+    messages.append(HumanMessage(content=prompt))
     
     # Get response from Groq model
-    sql_response = client.invoke([system_message, user_message])
+    sql_response = client.invoke(messages)
     
     logger.info(sql_response.content)
     
     if sql_response.content == "Invalid query":
         print("Invalid Query")
-        return None
+        return None, None, messages
     
     df_response = run_sql_query(sql_response.content)  
-       
-    suggested_viz = summarize_data(prompt+" # "+df_response.to_string())
     
-    return df_response, suggested_viz
+    suggested_viz = summarize_data(prompt + " # " + df_response.to_string())
+    
+    # Update chat history with latest messages and response
+    messages.append(sql_response)
+    
+    return df_response, suggested_viz, messages

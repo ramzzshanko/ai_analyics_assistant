@@ -6,6 +6,8 @@ accounts('customer_id', 'account_id', 'balance', 'account_type'),
 
 transactions('transaction_id', 'account_id', 'to_account', 'amount', 'fee', 'datetime', 'transaction_type', 'merchant_category', 'net_impact')
 
+You can also process follow up questions based on the previous SQL query in history messages.
+
 Only return valid SQL Query for DuckDB latest version.
 
 Only return SQL QUERY.

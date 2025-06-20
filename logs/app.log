@@ -718,3 +718,203 @@
 2025-06-19 23:52:01,276 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
 2025-06-19 23:52:01,285 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
 2025-06-19 23:52:43,732 [MainProcess: 41036] [ScriptRunner.scriptThread: 6780] [INFO] app: SELECT c.name, SUM(t.amount) AS total_amount, AVG(t.amount) AS avg_amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.name ORDER BY avg_amount DESC LIMIT 10;
+2025-06-20 00:52:01,311 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 00:52:01,490 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 00:52:01,490 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 00:52:01,502 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 00:52:01,503 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 00:52:01,511 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 00:52:01,511 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 00:52:01,525 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 01:52:01,533 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 01:52:01,559 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 01:52:01,559 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 01:52:01,564 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 01:52:01,564 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 01:52:01,570 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 01:52:01,570 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 01:52:01,583 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 02:52:01,613 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 02:52:01,657 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 02:52:01,657 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 02:52:01,662 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 02:52:01,664 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 02:52:01,671 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 02:52:01,671 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 02:52:01,684 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 03:52:01,709 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 03:52:01,769 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 03:52:01,769 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 03:52:01,773 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 03:52:01,774 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 03:52:01,781 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 03:52:01,782 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 03:52:01,793 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 04:52:01,820 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 04:52:01,902 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 04:52:01,908 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 04:52:01,940 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 04:52:01,940 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 04:52:01,947 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 04:52:01,948 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 04:52:01,971 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 05:52:01,987 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 05:52:02,047 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 05:52:02,047 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 05:52:02,047 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 05:52:02,047 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 05:52:02,059 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 05:52:02,059 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 05:52:02,070 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 06:52:02,078 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 06:52:02,133 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 06:52:02,133 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 06:52:02,144 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 06:52:02,144 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 06:52:02,153 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 06:52:02,153 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 06:52:02,167 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 07:52:02,207 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 07:52:02,209 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 07:52:02,225 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 07:52:02,228 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 07:52:02,228 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 07:52:02,233 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 07:52:02,234 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 07:52:02,243 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 09:32:30,225 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Creating DuckDB connection
+2025-06-20 09:32:30,225 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Creating DuckDB connection
+2025-06-20 09:32:30,227 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Loading OMari loan dataframes
+2025-06-20 09:32:30,227 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Loading OMari loan dataframes
+2025-06-20 09:32:30,254 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 09:32:30,254 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 09:32:30,255 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Register customers into DuckDB
+2025-06-20 09:32:30,255 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Register customers into DuckDB
+2025-06-20 09:32:30,269 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Registered 100 rows into customers
+2025-06-20 09:32:30,269 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Registered 100 rows into customers
+2025-06-20 09:32:30,269 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Register accounts into DuckDB
+2025-06-20 09:32:30,269 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Register accounts into DuckDB
+2025-06-20 09:32:30,284 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 09:32:30,284 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 09:32:30,285 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Register transactions into DuckDB
+2025-06-20 09:32:30,285 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Register transactions into DuckDB
+2025-06-20 09:32:30,310 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 09:32:30,310 [MainProcess: 41036] [ScriptRunner.scriptThread: 40468] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 09:32:30,312 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Loading OMari loan dataframes
+2025-06-20 09:32:30,312 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Loading OMari loan dataframes
+2025-06-20 09:32:30,352 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 09:32:30,352 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 09:32:30,355 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Register customers into DuckDB
+2025-06-20 09:32:30,355 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Register customers into DuckDB
+2025-06-20 09:32:30,362 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Registered 100 rows into customers
+2025-06-20 09:32:30,362 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Registered 100 rows into customers
+2025-06-20 09:32:30,375 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Register accounts into DuckDB
+2025-06-20 09:32:30,375 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Register accounts into DuckDB
+2025-06-20 09:32:30,387 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 09:32:30,387 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 09:32:30,455 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Register transactions into DuckDB
+2025-06-20 09:32:30,455 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Register transactions into DuckDB
+2025-06-20 09:32:30,478 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 09:32:30,478 [MainProcess: 41036] [Thread-16 (periodic_refresh): 46952] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 09:33:33,371 [MainProcess: 41036] [ScriptRunner.scriptThread: 41192] [INFO] app: SELECT c.name, SUM(t.amount) AS total_amount, AVG(t.amount) AS avg_amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.name ORDER BY avg_amount DESC LIMIT 10;
+2025-06-20 09:33:33,371 [MainProcess: 41036] [ScriptRunner.scriptThread: 41192] [INFO] app: SELECT c.name, SUM(t.amount) AS total_amount, AVG(t.amount) AS avg_amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.name ORDER BY avg_amount DESC LIMIT 10;
+2025-06-20 09:34:22,069 [MainProcess: 41036] [ScriptRunner.scriptThread: 46756] [INFO] app: SELECT c.name, t.amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id ORDER BY t.amount DESC LIMIT 1;
+2025-06-20 09:34:22,069 [MainProcess: 41036] [ScriptRunner.scriptThread: 46756] [INFO] app: SELECT c.name, t.amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id ORDER BY t.amount DESC LIMIT 1;
+2025-06-20 09:35:30,630 [MainProcess: 41036] [ScriptRunner.scriptThread: 2892] [INFO] app: SELECT c.customer_id, COUNT(t.transaction_id) AS num_transactions FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id
+2025-06-20 09:35:30,630 [MainProcess: 41036] [ScriptRunner.scriptThread: 2892] [INFO] app: SELECT c.customer_id, COUNT(t.transaction_id) AS num_transactions FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id
+2025-06-20 09:36:15,492 [MainProcess: 41036] [ScriptRunner.scriptThread: 12196] [INFO] app: SELECT c.customer_id, COUNT(t.transaction_id) AS num_transactions FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id ORDER BY num_transactions DESC LIMIT 10;
+2025-06-20 09:36:15,492 [MainProcess: 41036] [ScriptRunner.scriptThread: 12196] [INFO] app: SELECT c.customer_id, COUNT(t.transaction_id) AS num_transactions FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id ORDER BY num_transactions DESC LIMIT 10;
+2025-06-20 09:37:02,212 [MainProcess: 41036] [ScriptRunner.scriptThread: 48560] [INFO] app: SELECT c.customer_id, c.name, COUNT(t.transaction_id) AS num_transactions 
+FROM customers c 
+JOIN accounts a ON c.customer_id = a.customer_id 
+JOIN transactions t ON a.account_id = t.account_id 
+GROUP BY c.customer_id, c.name 
+ORDER BY num_transactions DESC 
+LIMIT 10;
+2025-06-20 09:37:02,212 [MainProcess: 41036] [ScriptRunner.scriptThread: 48560] [INFO] app: SELECT c.customer_id, c.name, COUNT(t.transaction_id) AS num_transactions 
+FROM customers c 
+JOIN accounts a ON c.customer_id = a.customer_id 
+JOIN transactions t ON a.account_id = t.account_id 
+GROUP BY c.customer_id, c.name 
+ORDER BY num_transactions DESC 
+LIMIT 10;
+2025-06-20 09:48:20,766 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 09:48:20,766 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loading OMari loan dataframes
+2025-06-20 09:48:20,848 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 09:48:20,848 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 09:48:20,850 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 09:48:20,850 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register customers into DuckDB
+2025-06-20 09:48:20,857 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 09:48:20,857 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 100 rows into customers
+2025-06-20 09:48:20,858 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 09:48:20,858 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register accounts into DuckDB
+2025-06-20 09:48:20,870 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 09:48:20,870 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 09:48:20,871 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 09:48:20,871 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Register transactions into DuckDB
+2025-06-20 09:48:20,902 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 09:48:20,902 [MainProcess: 41036] [Thread-11 (periodic_refresh): 24844] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 09:58:32,921 [MainProcess: 41036] [ScriptRunner.scriptThread: 22960] [INFO] app: SELECT c.customer_id, c.name, COUNT(t.transaction_id) AS total_transactions, SUM(t.amount) AS total_amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id, c.name ORDER BY total_transactions DESC LIMIT 5;
+2025-06-20 09:58:32,921 [MainProcess: 41036] [ScriptRunner.scriptThread: 22960] [INFO] app: SELECT c.customer_id, c.name, COUNT(t.transaction_id) AS total_transactions, SUM(t.amount) AS total_amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id, c.name ORDER BY total_transactions DESC LIMIT 5;
+2025-06-20 10:09:54,587 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Creating DuckDB connection
+2025-06-20 10:09:54,628 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Loading OMari loan dataframes
+2025-06-20 10:09:54,679 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 10:09:54,679 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Register customers into DuckDB
+2025-06-20 10:09:54,686 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Registered 100 rows into customers
+2025-06-20 10:09:54,686 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Register accounts into DuckDB
+2025-06-20 10:09:54,692 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 10:09:54,692 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Register transactions into DuckDB
+2025-06-20 10:09:54,706 [MainProcess: 47976] [ScriptRunner.scriptThread: 45784] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 10:09:54,707 [MainProcess: 47976] [Thread-11 (periodic_refresh): 45060] [INFO] app: Loading OMari loan dataframes
+2025-06-20 10:09:54,762 [MainProcess: 47976] [Thread-11 (periodic_refresh): 45060] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 10:09:54,764 [MainProcess: 47976] [Thread-11 (periodic_refresh): 45060] [INFO] app: Register customers into DuckDB
+2025-06-20 10:09:54,775 [MainProcess: 47976] [Thread-11 (periodic_refresh): 45060] [INFO] app: Registered 100 rows into customers
+2025-06-20 10:09:54,776 [MainProcess: 47976] [Thread-11 (periodic_refresh): 45060] [INFO] app: Register accounts into DuckDB
+2025-06-20 10:09:54,789 [MainProcess: 47976] [Thread-11 (periodic_refresh): 45060] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 10:09:54,789 [MainProcess: 47976] [Thread-11 (periodic_refresh): 45060] [INFO] app: Register transactions into DuckDB
+2025-06-20 10:09:54,819 [MainProcess: 47976] [Thread-11 (periodic_refresh): 45060] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 10:10:57,486 [MainProcess: 47976] [ScriptRunner.scriptThread: 45492] [INFO] app: SELECT c.customer_id, COUNT(t.transaction_id) AS num_transactions 
+FROM customers c 
+JOIN accounts a ON c.customer_id = a.customer_id 
+JOIN transactions t ON a.account_id = t.account_id 
+GROUP BY c.customer_id 
+ORDER BY num_transactions DESC 
+LIMIT 10;
+2025-06-20 10:12:29,295 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Creating DuckDB connection
+2025-06-20 10:12:29,295 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Creating DuckDB connection
+2025-06-20 10:12:29,296 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Loading OMari loan dataframes
+2025-06-20 10:12:29,296 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Loading OMari loan dataframes
+2025-06-20 10:12:29,341 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 10:12:29,341 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 10:12:29,342 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Register customers into DuckDB
+2025-06-20 10:12:29,342 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Register customers into DuckDB
+2025-06-20 10:12:29,346 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Registered 100 rows into customers
+2025-06-20 10:12:29,346 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Registered 100 rows into customers
+2025-06-20 10:12:29,347 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Register accounts into DuckDB
+2025-06-20 10:12:29,347 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Register accounts into DuckDB
+2025-06-20 10:12:29,357 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 10:12:29,357 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 10:12:29,358 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Register transactions into DuckDB
+2025-06-20 10:12:29,358 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Register transactions into DuckDB
+2025-06-20 10:12:29,372 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 10:12:29,372 [MainProcess: 47976] [ScriptRunner.scriptThread: 48104] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 10:12:29,373 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Loading OMari loan dataframes
+2025-06-20 10:12:29,373 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Loading OMari loan dataframes
+2025-06-20 10:12:29,405 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 10:12:29,405 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Loaded 3 dataframes from OMari loan data
+2025-06-20 10:12:29,434 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Register customers into DuckDB
+2025-06-20 10:12:29,434 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Register customers into DuckDB
+2025-06-20 10:12:29,442 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Registered 100 rows into customers
+2025-06-20 10:12:29,442 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Registered 100 rows into customers
+2025-06-20 10:12:29,443 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Register accounts into DuckDB
+2025-06-20 10:12:29,443 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Register accounts into DuckDB
+2025-06-20 10:12:29,454 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 10:12:29,454 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Registered 1000 rows into accounts
+2025-06-20 10:12:29,456 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Register transactions into DuckDB
+2025-06-20 10:12:29,456 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Register transactions into DuckDB
+2025-06-20 10:12:29,594 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 10:12:29,594 [MainProcess: 47976] [Thread-15 (periodic_refresh): 37140] [INFO] app: Registered 5000 rows into transactions
+2025-06-20 10:12:50,857 [MainProcess: 47976] [ScriptRunner.scriptThread: 43104] [INFO] app: SELECT c.customer_id, COUNT(t.transaction_id) AS num_transactions FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id ORDER BY num_transactions DESC LIMIT 5;
+2025-06-20 10:12:50,857 [MainProcess: 47976] [ScriptRunner.scriptThread: 43104] [INFO] app: SELECT c.customer_id, COUNT(t.transaction_id) AS num_transactions FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id ORDER BY num_transactions DESC LIMIT 5;
+2025-06-20 10:13:22,732 [MainProcess: 47976] [ScriptRunner.scriptThread: 48468] [INFO] app: SELECT c.customer_id, SUM(t.amount) AS total_amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id;
+2025-06-20 10:13:22,732 [MainProcess: 47976] [ScriptRunner.scriptThread: 48468] [INFO] app: SELECT c.customer_id, SUM(t.amount) AS total_amount FROM customers c JOIN accounts a ON c.customer_id = a.customer_id JOIN transactions t ON a.account_id = t.account_id GROUP BY c.customer_id;
